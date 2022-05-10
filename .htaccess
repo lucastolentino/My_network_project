@@ -1,0 +1,5 @@
+RewriteEngine on 
+RewriteCond %{ENV:REDIRECT_STATUS} 200
+RewriteRule .* - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,L]
