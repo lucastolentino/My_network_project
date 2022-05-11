@@ -18,8 +18,8 @@
 	        <div class="login">
 		        <form action="login" method="POST">
 
-			        <input type="email" name="email">
-			        <input type="password" name="senha">
+			        <input type="email" name="email" placeholder="E-MAIL">
+			        <input type="password" name="senha" placeholder="SENHA">
 			        <input type="submit" name="btn" value="Entrar"> 
 		        </form>
 		

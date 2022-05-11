@@ -1,0 +1,23 @@
+input{
+	border-radius:10px;
+	line-height: 40px;
+	height: 40px;
+	background-color: #fff;
+	color: #8a8a8a;
+	padding: 0 20px;
+	margin-right: 13px;
+	font-weight: bold;
+	border: 0;
+
+}
+
+input[type="submit"]{
+	background-color: $color_background_botao;
+	color: #fff;
+	text-transform: uppercase;
+	cursor:pointer;
+	transition: .25s;
+	&:hover{
+	     background-color: $color_background_hover;
+	}
+	}
