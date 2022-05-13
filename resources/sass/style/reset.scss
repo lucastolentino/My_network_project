@@ -1,3 +1,12 @@
+$tablet:          768;
+$desktop:         1024;
+
+@mixin tablet     { @media screen and (min-width: #{$table}px) { @content; } }
+@mixin desktop     { @media screen and (min-width: #{$desktop}px) { @content; } }
+
+
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
