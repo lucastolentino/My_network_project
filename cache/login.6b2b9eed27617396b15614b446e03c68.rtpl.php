@@ -1,5 +1,5 @@
 <?php if(!class_exists('Rain\Tpl')){exit;}?> <section>
- 	 Minha p[agina de login
+ 	 Minha página de login
  </section>	
 
 

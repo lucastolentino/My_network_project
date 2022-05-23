@@ -1,5 +1,5 @@
  <section>
- 	 Minha p[agina de login
+ 	 Minha página de login
  </section>	
 
 
