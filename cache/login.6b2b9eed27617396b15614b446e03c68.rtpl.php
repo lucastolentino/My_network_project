@@ -1,4 +1,4 @@
-<?php if(!class_exists('Rain\Tpl')){exit;}?> <section>
+<?php if(!class_exists('Rain\Tpl')){exit;}?> <section class="el-login">
  	<form action="/" method="POST">
         <legend> Cadastrar</legend>
         <input type="text" name="nome" placeholder="Nome" >

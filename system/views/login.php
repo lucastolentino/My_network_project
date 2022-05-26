@@ -1,4 +1,4 @@
- <section>
+ <section class="el-login">
  	<form action="/" method="POST">
         <legend> Cadastrar</legend>
         <input type="text" name="nome" placeholder="Nome" >
