@@ -8,6 +8,9 @@ input{
 	margin-right: 13px;
 	font-weight: bold;
 	border: 0;
+	&:focus{
+	       outline: none;
+	}
 
 }
 
