@@ -1,0 +1,1 @@
+<div class="lateral_esquerda">Aqui é a nossa lateral esuqerda</div>

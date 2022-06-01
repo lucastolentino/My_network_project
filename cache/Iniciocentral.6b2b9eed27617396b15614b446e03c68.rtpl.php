@@ -1,0 +1,1 @@
+<?php if(!class_exists('Rain\Tpl')){exit;}?><div class="content <?php echo htmlspecialchars( $classprincipal, ENT_COMPAT, 'UTF-8', FALSE ); ?>"> 

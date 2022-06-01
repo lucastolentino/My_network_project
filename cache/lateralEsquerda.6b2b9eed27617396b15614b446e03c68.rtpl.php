@@ -1,0 +1,1 @@
+<?php if(!class_exists('Rain\Tpl')){exit;}?><div class="lateral_esquerda">Aqui é a nossa lateral esuqerda</div>

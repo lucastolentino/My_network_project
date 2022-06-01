@@ -53,7 +53,11 @@ class HomeController
 	public function feed()
 	{
 		$this->setTpl("header", array('title_pagina' => 'Seu Feed'));
+		$this->setTpl("Iniciocentral", array ('classprincipal' => 'feed'));
+		$this->setTpl("lateralEsquerda");
 		$this->setTpl("feed");
+		$this->setTpl("lateralDireita");
+		$this->setTpl("finalCentral");
 	}
 
 	public function feed_usuario($request, $response, $args){
