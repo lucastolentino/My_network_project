@@ -1,11 +1,5 @@
 .feed{
-	.lateral_esquerda{
-        width: 100%;
-        @include desktop{
-             width: 22.85%;
-        }
 
-	}
     .conteudo{
           width: 100%;
 	      @include desktop{
@@ -13,10 +7,5 @@
     }
     }
 	  
-    .lateral_Direita{
-         width: 100%;
-         @include desktop{
-             width: 22.85%;
-    }
-}
+  
 }

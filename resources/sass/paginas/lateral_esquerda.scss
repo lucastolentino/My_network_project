@@ -1,0 +1,8 @@
+	.lateral_esquerda{
+        width: 100%;
+        background-color: red;
+        @include desktop{
+             width: 22.85%;
+        }
+
+	}
