@@ -1,1 +1,26 @@
-<div class="lateral_esquerda">Aqui é a nossa lateral esuqerda</div>
+<section class="lateral_esquerda">
+	<div class="topo">
+		<img src="#">
+		<div class="info">
+			<p>Fulano de tal</p>
+			<button class="btn-seguir"> Seguir </button>
+			
+		</div>
+		
+	</div>
+	<div class="links">
+		<ul>
+			<li> Mensagens <span>(2)</span></li> 
+		</ul>
+		
+	</div>
+	<div class="form_quem_sou">
+		<form action="#" method="POST">
+			<textarea placeholder="Quem sou eu"></textarea>
+			<input type="submit" name="btn" value="Salvar">
+			
+		</form>
+		
+	</div>
+
+</section> 
