@@ -1,8 +1,48 @@
 	.lateral_esquerda{
         width: 100%;
-        background-color: red;
+        padding: 25px 0;
         @include desktop{
              width: 22.85%;
+        }
+        .topo{
+           width: 100%;
+           display: inline-flex;
+           align-items: center;
+
+           img{
+             width: 60px;
+             margin-right: 18px;
+             border-radius: 50%;
+             background-color: #009bdb;
+           }
+
+           .info{
+              width: calc(100% - 78px);
+
+              p{
+                 font-size: 16px;
+                 color: #acacac;
+                 font-family: 'Montserrat Medium';
+                 line-height: 1;
+              }
+              .btn-seguir{
+                  margin-top: 10px;
+                  border: 0px;
+                  padding: 6px;
+                  line-height: 1;
+                  font-size: 14px;
+                  color: #fff;
+                  background-color: #a0c49a;
+                  border-radius: 5px;
+                  cursor: pointer;
+                  transition: .25s;
+
+                  &:hover{
+                       background-color: #748e6f;
+                  }
+
+              }
+           }
         }
 
 	}

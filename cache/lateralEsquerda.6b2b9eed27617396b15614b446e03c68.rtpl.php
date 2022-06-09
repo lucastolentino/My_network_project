@@ -1,6 +1,6 @@
 <?php if(!class_exists('Rain\Tpl')){exit;}?><section class="lateral_esquerda">
 	<div class="topo">
-		<img src="#">
+		<img src="resources/imagens/icone_user.png">
 		<div class="info">
 			<p>Fulano de tal</p>
 			<button class="btn-seguir"> Seguir </button>
